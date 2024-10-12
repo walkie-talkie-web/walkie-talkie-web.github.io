@@ -1,0 +1,111 @@
+.navbar {
+  background-color: white !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  border-bottom: #d7d5da solid 2px;
+}
+
+.navbar-toggler {
+  box-shadow: none !important;
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 23px;
+}
+
+.main-section {
+  padding: 100px 0px;
+}
+
+#features-section {
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: #e3e0f3;
+}
+
+.icon {
+  background-color: #e3e0f3;
+}
+
+.basic-text {
+  font-size: 16px;
+}
+
+.addBtn {
+  background-color: #8685ef;
+  border-color: transparent !important;
+}
+
+.addBtn:hover,
+.addBtn:active {
+  background-color: #6d6bbb !important;
+  border-color: transparent !important;
+}
+
+::selection {
+  background-color: #8685ef;
+  color: white;
+}
+
+.cta-section {
+  margin-top: 50px;
+}
+
+.accordion {
+  padding: 0 450px;
+}
+
+#faq-section {
+  background-color: #e3e0f3;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #aaa4ca;
+  box-shadow: none;
+}
+
+.accordion-button,
+.accordion-button:active {
+  color: black;
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z"/></svg>');
+  height: 15px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z"/></svg>');
+  height: 15px;
+}
+
+.nav-logo {
+  height: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding-left: 0px;
+  }
+
+  .navbar-nav {
+    padding-left: 30px;
+  }
+
+  #features-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .main-section {
+    padding: 0;
+  }
+
+  .accordion {
+    padding: 0 50px;
+  }
+}

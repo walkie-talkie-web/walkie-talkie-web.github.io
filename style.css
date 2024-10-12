@@ -106,4 +106,44 @@
   .accordion {
     padding: 0 50px;
   }
+
+  .text-start,
+  .text-end {
+    text-align: center !important;
+  }
+
+  .discord-footer-span {
+    margin-top: 15px;
+    text-underline-offset: 6px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .navbar {
+    padding-left: 45px;
+  }
+
+  #features-section {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .accordion {
+    padding: 0 150px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+    padding-left: 0;
+  }
+
+  #features-section {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .accordion {
+    padding: 0 50px;
+  }
 }
